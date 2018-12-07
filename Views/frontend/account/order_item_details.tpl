@@ -2,7 +2,7 @@
 
     {block name='frontend_account_order_item_repeat_order' append}
 
-            {* PayPal Button *}
+            {* PayPal Button should try to use api but this is easy *}
             <div class="order--repeat panel--tr">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                     <input type="hidden" name="cmd" value="_xclick">
